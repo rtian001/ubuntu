@@ -1,10 +1,10 @@
 FROM ubuntu:22.04
 
-LABEL org.opencontainers.image.source="https://github.com/vevc/ubuntu"
+LABEL org.opencontainers.image.source="https://github.com/rtian001/ubuntu"
 
 ENV TZ=Asia/Shanghai \
-    SSH_USER=ubuntu \
-    SSH_PASSWORD=ubuntu!23 \
+    SSH_USER=rtian \
+    SSH_PASSWORD=123 \
     START_CMD=''
 
 COPY entrypoint.sh /entrypoint.sh
